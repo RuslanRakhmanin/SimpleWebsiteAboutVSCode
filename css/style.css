@@ -1,0 +1,108 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font styles and colors */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+/* Style the header */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #007bff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #007bff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add some spacing between sections */
+section + section {
+    margin-top: 20px;
+}
+
+section ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+section li:before {
+    content: "\2022"; /* Bullet character */
+    color: #007ACC; /* Adjust bullet color as needed */
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+code {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace !important;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    transition: padding 0.3s; /* Add a smooth transition effect */
+  }
+  
+  nav ul li:hover {
+    padding: 10px; /* Increase the padding to make the menu bigger */
+  }
